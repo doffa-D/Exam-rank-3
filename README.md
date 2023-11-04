@@ -1,8 +1,6 @@
 # Exam-rank-3
 
-
-
-# get_next_line
+## get_next_line
 
 To accomplish this, the function will need to read data from the file descriptor using the read function, which reads a specified number of bytes from a file descriptor and stores them in a buffer. The function should keep reading from the file descriptor until it reaches the end of a line, which is indicated by a newline character ('\n').
 
@@ -16,7 +14,7 @@ It's also important to ensure that the function behaves correctly when reading f
 
 Lastly, it's worth noting that the function may not behave correctly when reading from a binary file, which can contain data that does not conform to the format of a text file.
 
-# ft_printf
+## ft_printf
 
 The function should be declared with the signature int ft_printf(const char *, ... );, which is similar to the signature of the standard printf function.
 
